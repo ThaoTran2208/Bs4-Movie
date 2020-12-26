@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <p class="text-white text-right header-top pt-3 mb-0">
+          <i class="fa fa-phone mr-2"></i>
+          <span class="border-right pr-2 font-weight-bold">033 46 43 124</span>
+          <i class="fa fa-search ml-2"></i>
+        </p>
+
+        <nav class="navbar navbar-expand-lg navbar-dark py-0">
+          <a class="navbar-brand py-0" href="#">
+            <img src="./images/logo.jpg.svg" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="custom-toggler navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto border-bottom">
+              <a class="nav-item nav-link text-white px-4 active" href="#"
+                >HOME</a
+              >
+              <a class="nav-item nav-link text-white px-4" href="#"
+                >WHAT'S ON</a
+              >
+              <a class="nav-item nav-link text-white px-4" href="#"
+                >SHORTCODES</a
+              >
+              <a class="nav-item nav-link text-white px-4" href="#">NEW</a>
+              <a class="nav-item nav-link text-white px-4" href="#">CONTACT</a>
+              <a class="nav-item nav-link text-white px-4" href="#">SIGN IN</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="slider">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-item-1 active">
+            <!-- <img src="./images/hero-1.jpg" class="d-block" alt="..." /> -->
+            <div class="carousel-caption container d-md-block text-left">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1 class="display-4">End of the World: Part II</h1>
+              <p class="lead">
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamus parum.
+              </p>
+              <div class="trailer d-flex">
+                <span class="border rounded-circle mr-2">15</span>
+                <button class="btn text-white px-4">PLAY TRAILER</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-item-2">
+            <!-- <img src="./images/hero-2.jpg" class="d-block w-100" alt="..." /> -->
+            <div class="carousel-caption container d-md-block text-left">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1 class="display-4">End of the World: Part II</h1>
+              <p class="lead">
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamus parum.
+              </p>
+              <div class="trailer d-flex">
+                <span class="border rounded-circle mr-2">15</span>
+                <button class="btn text-white px-4">PLAY TRAILER</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-item-3">
+            <!-- <img src="./images/hero-3.jpg" class="d-block w-100" alt="..." /> -->
+            <div class="carousel-caption container d-md-block text-left">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1 class="display-4">End of the World: Part II</h1>
+              <p class="lead">
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamus parum.
+              </p>
+              <div class="trailer d-flex">
+                <span class="border rounded-circle mr-2">15</span>
+                <button class="btn text-white px-4">PLAY TRAILER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="new container">
+      <h1 class="title-border">NEW IN</h1>
+      <div class="row">
+        <div class="col-6 col-lg-3">
+          <div class="item text-center">
+            <div class="img position-relative text-white">
+              <img class="w-100" src="./images/movie-1.jpg" alt="new" />
+              <div class="info position-absolute">
+                <i class="fa fa-play border rounded-circle d-block"></i>
+                <a class="d-block text-white my-3" href="#">READ MORE</a>
+                <p>Released: 7 March, 2020</p>
+              </div>
+            </div>
+
+            <h1 class="mt-3">The last post</h1>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="item text-center">
+            <div class="img position-relative text-white">
+              <img class="w-100" src="./images/movie-2.jpg" alt="new" />
+              <div class="info position-absolute">
+                <i class="fa fa-play border rounded-circle d-block"></i>
+                <a class="d-block text-white my-3" href="#">READ MORE</a>
+                <p>Released: 7 March, 2020</p>
+              </div>
+            </div>
+
+            <h1 class="mt-3">The last post</h1>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="item text-center">
+            <div class="img position-relative text-white">
+              <img class="w-100" src="./images/movie-3.jpg" alt="new" />
+              <div class="info position-absolute">
+                <i class="fa fa-play border rounded-circle d-block"></i>
+                <a class="d-block text-white my-3" href="#">READ MORE</a>
+                <p>Released: 7 March, 2020</p>
+              </div>
+            </div>
+
+            <h1 class="mt-3">The last post</h1>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="item text-center">
+            <div class="img position-relative text-white">
+              <img class="w-100" src="./images/movie-4.jpg" alt="new" />
+              <div class="info position-absolute">
+                <i class="fa fa-play border rounded-circle d-block"></i>
+                <a class="d-block text-white my-3" href="#">READ MORE</a>
+                <p>Released: 7 March, 2020</p>
+              </div>
+            </div>
+
+            <h1 class="mt-3">The last post</h1>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule container">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" data-toggle="tab" href="#mon" role="tab"
+            >MON</a
+          >
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-toggle="tab" href="#tue" role="tab">TUE</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-toggle="tab" href="#wed" role="tab">WED</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-toggle="tab" href="#thu" role="tab">THU</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-toggle="tab" href="#fri" role="tab">FRI</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-toggle="tab" href="#sat" role="tab">SAT</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-toggle="tab" href="#sun" role="tab">SUN</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="mon" role="tabpanel">
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-6.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>It's over</h1>
+              <p>
+                European mercenaries searching for black powder become embroiled
+                in the defense of It's over of China against a horde of
+                monstrous creatures.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 running-time">
+                  105 MINS
+                  <span class="certificate rounded-circle">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-5.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, SCI-FI</span>
+              <h1>Captain America: The First Avenger</h1>
+              <p>
+                Steve Rogers, a rejected military soldier transforms into
+                Captain America after taking a dose of a "Super-Soldier serum".
+                But being Captain America comes at a price as he attempts to
+                take down a war monger and a terrorist organization.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  120 MINS
+                  <span class="certificate rounded-circle">pg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-8.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Fences</h1>
+              <p>
+                A working-class African-American father tries to raise his
+                family in the 1950s, while coming to terms with the events of
+                his life.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  135 MINS
+                  <span class="certificate rounded-circle">18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-7.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Daylight</h1>
+              <p>
+                A chronicle of the childhood, adolescence and burgeoning
+                adulthood of a young black man growing up in a rough
+                neighborhood of Miami.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  117 MINS
+                  <span class="certificate rounded-circle">u</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="tue" role="tabpanel">
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-7.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Daylight</h1>
+              <p>
+                A chronicle of the childhood, adolescence and burgeoning
+                adulthood of a young black man growing up in a rough
+                neighborhood of Miami.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  117 MINS
+                  <span class="certificate rounded-circle">u</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-8.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Fences</h1>
+              <p>
+                A working-class African-American father tries to raise his
+                family in the 1950s, while coming to terms with the events of
+                his life.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  135 MINS
+                  <span class="certificate rounded-circle">18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-6.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>It's over</h1>
+              <p>
+                European mercenaries searching for black powder become embroiled
+                in the defense of It's over of China against a horde of
+                monstrous creatures.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  105 MINS
+                  <span class="certificate rounded-circle">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-5.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, SCI-FI</span>
+              <h1>Captain America: The First Avenger</h1>
+              <p>
+                Steve Rogers, a rejected military soldier transforms into
+                Captain America after taking a dose of a "Super-Soldier serum".
+                But being Captain America comes at a price as he attempts to
+                take down a war monger and a terrorist organization.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  120 MINS
+                  <span class="certificate rounded-circle">pg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="wed" role="tabpanel">
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-5.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, SCI-FI</span>
+              <h1>Captain America: The First Avenger</h1>
+              <p>
+                Steve Rogers, a rejected military soldier transforms into
+                Captain America after taking a dose of a "Super-Soldier serum".
+                But being Captain America comes at a price as he attempts to
+                take down a war monger and a terrorist organization.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  120 MINS
+                  <span class="certificate rounded-circle">pg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-6.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>It's over</h1>
+              <p>
+                European mercenaries searching for black powder become embroiled
+                in the defense of It's over of China against a horde of
+                monstrous creatures.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  105 MINS
+                  <span class="certificate rounded-circle">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-8.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Fences</h1>
+              <p>
+                A working-class African-American father tries to raise his
+                family in the 1950s, while coming to terms with the events of
+                his life.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  135 MINS
+                  <span class="certificate rounded-circle">18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-7.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Daylight</h1>
+              <p>
+                A chronicle of the childhood, adolescence and burgeoning
+                adulthood of a young black man growing up in a rough
+                neighborhood of Miami.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  117 MINS
+                  <span class="certificate rounded-circle">u</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="thu" role="tabpanel">
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-8.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Fences</h1>
+              <p>
+                A working-class African-American father tries to raise his
+                family in the 1950s, while coming to terms with the events of
+                his life.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  135 MINS
+                  <span class="certificate rounded-circle">18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-6.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>It's over</h1>
+              <p>
+                European mercenaries searching for black powder become embroiled
+                in the defense of It's over of China against a horde of
+                monstrous creatures.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  105 MINS
+                  <span class="certificate rounded-circle">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-5.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, SCI-FI</span>
+              <h1>Captain America: The First Avenger</h1>
+              <p>
+                Steve Rogers, a rejected military soldier transforms into
+                Captain America after taking a dose of a "Super-Soldier serum".
+                But being Captain America comes at a price as he attempts to
+                take down a war monger and a terrorist organization.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  120 MINS
+                  <span class="certificate rounded-circle">pg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-7.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Daylight</h1>
+              <p>
+                A chronicle of the childhood, adolescence and burgeoning
+                adulthood of a young black man growing up in a rough
+                neighborhood of Miami.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  117 MINS
+                  <span class="certificate rounded-circle">u</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="fri" role="tabpanel">
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-6.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>It's over</h1>
+              <p>
+                European mercenaries searching for black powder become embroiled
+                in the defense of It's over of China against a horde of
+                monstrous creatures.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  105 MINS
+                  <span class="certificate rounded-circle">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-7.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Daylight</h1>
+              <p>
+                A chronicle of the childhood, adolescence and burgeoning
+                adulthood of a young black man growing up in a rough
+                neighborhood of Miami.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  117 MINS
+                  <span class="certificate rounded-circle">u</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-5.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, SCI-FI</span>
+              <h1>Captain America: The First Avenger</h1>
+              <p>
+                Steve Rogers, a rejected military soldier transforms into
+                Captain America after taking a dose of a "Super-Soldier serum".
+                But being Captain America comes at a price as he attempts to
+                take down a war monger and a terrorist organization.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  120 MINS
+                  <span class="certificate rounded-circle">pg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-8.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Fences</h1>
+              <p>
+                A working-class African-American father tries to raise his
+                family in the 1950s, while coming to terms with the events of
+                his life.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  135 MINS
+                  <span class="certificate rounded-circle">18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="sat" role="tabpanel">
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-6.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>It's over</h1>
+              <p>
+                European mercenaries searching for black powder become embroiled
+                in the defense of It's over of China against a horde of
+                monstrous creatures.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  105 MINS
+                  <span class="certificate rounded-circle">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-8.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Fences</h1>
+              <p>
+                A working-class African-American father tries to raise his
+                family in the 1950s, while coming to terms with the events of
+                his life.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  135 MINS
+                  <span class="certificate rounded-circle">18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-5.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, SCI-FI</span>
+              <h1>Captain America: The First Avenger</h1>
+              <p>
+                Steve Rogers, a rejected military soldier transforms into
+                Captain America after taking a dose of a "Super-Soldier serum".
+                But being Captain America comes at a price as he attempts to
+                take down a war monger and a terrorist organization.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  120 MINS
+                  <span class="certificate rounded-circle">pg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-7.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Daylight</h1>
+              <p>
+                A chronicle of the childhood, adolescence and burgeoning
+                adulthood of a young black man growing up in a rough
+                neighborhood of Miami.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  117 MINS
+                  <span class="certificate rounded-circle">u</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="sun" role="tabpanel">
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-6.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>It's over</h1>
+              <p>
+                European mercenaries searching for black powder become embroiled
+                in the defense of It's over of China against a horde of
+                monstrous creatures.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  105 MINS
+                  <span class="certificate rounded-circle">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-5.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>ACTION, ADVENTURE, SCI-FI</span>
+              <h1>Captain America: The First Avenger</h1>
+              <p>
+                Steve Rogers, a rejected military soldier transforms into
+                Captain America after taking a dose of a "Super-Soldier serum".
+                But being Captain America comes at a price as he attempts to
+                take down a war monger and a terrorist organization.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  120 MINS
+                  <span class="certificate rounded-circle">pg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-8.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Fences</h1>
+              <p>
+                A working-class African-American father tries to raise his
+                family in the 1950s, while coming to terms with the events of
+                his life.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  135 MINS
+                  <span class="certificate rounded-circle">18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row item border-bottom">
+            <div class="col-sm-5 col-md-3 col-lg-2">
+              <img class="w-100 img" src="./images/movie-7.jpg" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10 content">
+              <span>DRAMA</span>
+              <h1>Daylight</h1>
+              <p>
+                A chronicle of the childhood, adolescence and burgeoning
+                adulthood of a young black man growing up in a rough
+                neighborhood of Miami.
+              </p>
+              <p>
+                <a href="single-movie.html">
+                  Full synopsis
+
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </p>
+              <div class="row">
+                <div class="col-md-8 col-sm-9">
+                  <span class="viewing-times">
+                    <i class="fa fa-clock"></i>
+                    Viewing times
+                  </span>
+                  <span class="time past">11:00</span>
+                  <span class="time">16:00</span>
+                  <span class="time">18:00</span>
+                  <span class="time">21:00</span>
+                </div>
+                <div class="col-md-4 col-sm-3 running-time">
+                  117 MINS
+                  <span class="certificate rounded-circle">u</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="coming">
+      <div class="bg">
+        <div class="container">
+          <h1 class="title-border">COMING SOON</h1>
+          <div class="row">
+            <div class="col-md-5 col-lg-5 col-xs-12 slide-content">
+              <span class="title">Drama, Thriller</span>
+              <h1>Deepwater Horizon</h1>
+              <div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="date ml-2">
+                  <i class="fa fa-calendar-alt"></i> 30 September, 2017
+                </div>
+              </div>
+              <p>
+                A dramatization of the April 2010 disaster, when the offshore
+                drilling rig Deepwater Horizon exploded and created the worst
+                oil spill in U.S. history.
+              </p>
+              <p class="more">
+                <a href="#">More info</a>
+                <i class="fa fa-chevron-right"></i>
+              </p>
+            </div>
+
+            <div class="col-md-7 col-lg-6 col-xs-12 offset-lg-1 slide-video">
+              <a href="#">
+                <i class="fa fa-play"></i>
+                <img src="./images/slide-1-video.png" class="w-100" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container movie-slider">
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-4 item active">
+            <a href="#">
+              <img class="w-100" src="/images/movie-2.jpg" alt="" />
+            </a>
+            <h1 class="mt-4">The comedian</h1>
+            <p>21 November, 2018</p>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-4 item">
+            <a href="#">
+              <img class="w-100" src="/images/movie-3.jpg" alt="" />
+            </a>
+            <h1 class="mt-4">End of an empire</h1>
+            <p>19 October, 2018</p>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-4 item">
+            <a href="#">
+              <img class="w-100" src="/images/movie-4.jpg" alt="" />
+            </a>
+            <h1 class="mt-4">Locked out</h1>
+            <p>01 December, 2018</p>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-4 item">
+            <a href="#">
+              <img class="w-100" src="/images/movie-9.jpg" alt="" />
+            </a>
+            <h1 class="mt-4">Deepwater horizon</h1>
+            <p>07 September, 2017</p>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-4 item">
+            <a href="#">
+              <img class="w-100" src="/images/movie-11.jpg" alt="" />
+            </a>
+            <h1 class="mt-4">Too fast</h1>
+            <p>15 April, 2017</p>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-4 item">
+            <a href="#">
+              <img class="w-100" src="/images/movie-12.jpg" alt="" />
+            </a>
+            <h1 class="mt-4">The Hangover: Part III</h1>
+            <p>30 September, 2017</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <p>Need help? Contact our support team on</p>
+      <p class="phone">0330 123 4567</p>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="ft-top">
+          <div class="row">
+            <div class="col-md-3 item">
+              <h1>GET IN TOUCH</h1>
+              <a href="#">FAQs</a>
+              <a href="#"> Give us feedback</a>
+              <a href="#">Contact us</a>
+            </div>
+
+            <div class="col-md-3 item">
+              <h1>ABOUT MOVIE STAR</h1>
+              <a href="#">About us</a>
+              <a href="#"> Find us feedback</a>
+              <a href="#">Schedule</a>
+              <a href="#">News</a>
+            </div>
+
+            <div class="col-md-3 item">
+              <h1>LEGAL STUFF</h1>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Privacy policy</a>
+              <a href="#">Cookie policy</a>
+            </div>
+
+            <div class="col-md-3 item">
+              <h1>CONNECT WITH US</h1>
+              <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+              <a href="#"><i class="fab fa-google-plus-g"></i> Google +</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>
+            2017 © Movie Star /
+            <a href="#"> Web design by Klever media </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
